@@ -1,8 +1,7 @@
 # Machine-Learning-In-Medicine
 **Extended Abstract**
-The predictions of disease classes using genetic microarray data is presented and discussed in this repository.
 
-The predictions of disease classes using genetic microarray data is presented and discussed in this resipotory. The predictions have been carried out with the aid of naïve Bayes (NB), decision tree (DT), k nearest neighbor (kNN), artificial neural network (ANN), random forest (RF), and adaptive boosting (AdaBoost). 
+The predictions of disease classes using genetic microarray data is presented and discussed in this repository. The predictions of disease classes using genetic microarray data is presented and discussed in this resipotory. The predictions have been carried out with the aid of naïve Bayes (NB), decision tree (DT), k nearest neighbor (kNN), artificial neural network (ANN), random forest (RF), and adaptive boosting (AdaBoost). 
 
 The quest to develop a method that uses genetic data for disease classification has led to the application of different theoretical approaches. Based on the ability of a machine to learn and arrive at reasonable conclusions from data, this research employs machine learning models to train on measured disease class values of all samples in the genetic microarray data, with the goal of predicting disease class values of samples that have not been measured.
 
@@ -63,4 +62,5 @@ RF	0.9231
 AdaBoost	0.8462
 
 **Conclusion**
+
 In this study, the disease classes of some patients with 7070 recorded genes each have been predicted using naïve Bayes (NB), decision tree (DT), k nearest neighbor (kNN), artificial neural network (ANN), random forest (RF), and adaptive boosting (AdaBoost) models. When compared with the actual class data, all models are found to give very good predictions of the disease classes. With an accuracy of 0.9231, the kNN, DT, RF, and ANN models are found to perform very well on the validation data, However, when the predicted values are compared with the actual class values, the ANN predicted values were most in agreement with the actual values. This study concludes that the disease classes given the patient genes can successfully be predicted using ANN, kNN, DT and RF.
